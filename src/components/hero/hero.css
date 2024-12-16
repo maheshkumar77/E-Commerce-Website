@@ -1,0 +1,138 @@
+.hero {
+    height: 70vh;
+    width: 98%;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    gap: 80px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(163, 26, 151));
+}
+
+.hero .left {
+    position: relative;
+    left: 3rem;
+    height: 100%;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+   
+}
+
+.left h1 {
+    font-size: 40px;
+    font-weight: 700; /* Use a more standard weight value */
+}
+
+.hero .right {
+    height: 100%;
+    width: 50%;
+    flex: 1;
+   z-index: 1;
+    right: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center image vertically */
+    overflow: hidden;
+   
+   
+}
+
+.hero .right img {
+    max-width: 700px; /* Ensure the image scales with the container */
+    height: 700px; /* Prevent overflow */
+    object-fit: fill; /* Maintain aspect ratio */
+    
+}
+.hero .left p{
+    font-size: 23px;
+    font-weight: 200;
+    opacity:0.9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero .left strong{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.hero .left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 40px 9px 40px;
+    font-size: 10px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: rgb(61, 61, 201);
+    border-radius: 12px;
+}
+.left h1{
+    width: 210px;
+    font-family: monospace;
+    font-family: serif;
+    font-size:50px;
+    font-weight: 800;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;/* keeps on a single line*/
+    animation: type 3s steps(22) forwards,
+    blink 1s step-end infinite;
+
+}
+.left h1 strong{
+    animation: wave 0.5s infinite;
+}
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes type {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+        
+    }
+    
+}
+@keyframes blink {
+    50%{
+       border-color: transparent;
+
+    }
+    
+}
+ .hero .left p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+}

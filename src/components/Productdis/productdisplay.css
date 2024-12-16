@@ -1,0 +1,124 @@
+.star{
+    height: 40px;
+    width: 40px;
+}
+.prodisplay{
+    display: flex;
+    margin: 0px 100px;
+    
+}
+.productdisplay-left{
+    display: flex;
+    gap: 30px;
+
+}
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.productdisplay-img-list img{
+    height: 103px;
+   
+}
+.productdisplay-img{
+    width: 360px;
+    height: 465px;
+   
+
+}
+.product-img{
+    width: 360px;
+    height: 465px;
+}
+.productdisplay-right h1{
+    margin-top: 0px;
+    color: #3d3d3d;
+    font-size: 25px;
+    font-weight: 700;
+  
+  
+}
+
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.productdispaly-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 13px;
+    color: #1c1c1c;
+    font-size: 16px;
+    
+}
+.productdisplay-right-pricess{
+    display: flex;
+
+    margin: 30px 0px;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+  
+}
+.oldprice{
+    color: #818181;
+    text-decoration: line-through;
+}
+.newprice{
+    color: #ff4141;
+}
+.productdisplay-right-pricess .discount{
+    color:hsl(128, 87%, 44%) ;
+}
+.productdisplay-right-sizes{
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right-sizes h1{
+     margin-top: 30px;
+     color: #656565;
+     font-size: 20px;
+     font-weight: 600;
+}
+.productdisplay-right-size{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.productdisplay-right-size div{
+    padding: 10px 15px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.productdisplay-right button{
+    margin-top: 20px;
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.productdisplay-right-catogory{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.productdisplay-right-catogory span{
+    font-weight: 600;
+}
+.productdisplay-right-catogory img{
+    height: 20px;
+}

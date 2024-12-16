@@ -1,0 +1,15 @@
+.Bredcrums img{
+    height: 30px;
+    width: 30px;
+}
+.Bredcrums{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 100px;
+    text-decoration: capitalize;
+}
