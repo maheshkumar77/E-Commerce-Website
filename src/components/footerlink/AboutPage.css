@@ -1,0 +1,176 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container and Layout */
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  .about-content {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section, .about-mission, .about-vision, .about-values, .about-team {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h2, .about-mission h2, .about-vision h2, .about-values h2, .about-team h2 {
+    color: #2a9d8f;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p, .about-mission p, .about-vision p, .about-values p, .about-team p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .about-values .values-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .value-item1,.value-item2,.value-item3 {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    transition: transform 0.3s ease;
+  }
+  .value-item1 {
+    background-image: url(../assets/commu.jpg); /* Correct path for the image */
+    background-repeat: no-repeat;
+    background-position: center; /* Position the background image at the center */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    height: 100%; /* Ensure the height is set, or you can set a specific height like 300px */
+    width: 100%; /* Ensure the width is set */
+}
+.value-item2 {
+  background-image: url(../assets/enviroment.jpg); /* Correct path for the image */
+  background-repeat: no-repeat;
+  background-position: center; /* Position the background image at the center */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  height: 100%; /* Ensure the height is set, or you can set a specific height like 300px */
+  width: 100%; /* Ensure the width is set */
+}
+.value-item3 {
+  background-image: url(../assets/comunity.jpg); /* Correct path for the image */
+  background-repeat: no-repeat;
+  background-position: center; /* Position the background image at the center */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  height: 100%; /* Ensure the height is set, or you can set a specific height like 300px */
+  width: 100%; /* Ensure the width is set */
+}
+  
+  .value-item1:hover {
+    transform: translateY(-10px);
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  .value-item2:hover {
+    transform: translateY(-10px);
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  .value-item3:hover {
+    transform: translateY(-10px);
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .value-item1 h3 {
+    font-size: 1.4rem;
+    color: #0b0909;
+    margin-bottom: 10px;
+  }
+  .value-item2 h3 {
+    font-size: 1.4rem;
+    color: #0b0909;
+    margin-bottom: 10px;
+  }
+  .value-item3 h3 {
+    font-size: 1.4rem;
+    color: #0b0909;
+    margin-bottom: 10px;
+  }
+  
+  .value-item1 p {
+    font-size: 1rem;
+    color: #0b0909;
+  }
+  .value-item2 p {
+    font-size: 1rem;
+    color: #0b0909;
+  }
+  .value-item3 p {
+    font-size: 1rem;
+    color: #0b0909;
+  }
+  
+  .about-footer {
+    text-align: center;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .about-footer p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .about-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-header p {
+      font-size: 1.2rem;
+    }
+  
+    .about-values .values-list {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .value-item {
+      flex: 0 0 100%;
+      padding: 15px;
+    }
+  }
+  

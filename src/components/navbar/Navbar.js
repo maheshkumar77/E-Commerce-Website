@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import cart from '../assets/cart.jpg'
+//
 import im1 from '../assets/logo.png'
 import { Link } from 'react-router-dom';
+import IconButton from '@mui/material/IconButton';
+import Stack from '@mui/material/Stack';
+
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 function Navbar() {
     const[manu,setManu]=useState("kids");
@@ -21,7 +25,13 @@ function Navbar() {
         </ul>
         <div className='rest'>
           <button> <Link to='/login'  style={{ textDecoration: 'none' }}>login</Link> </button>
-          <Link to='/cart'  style={{ textDecoration: 'none' }}><img src={cart} alt=''/> </Link>
+          <Link to='/cart'  style={{ textDecoration: 'none' }}>
+          <Stack direction="row" spacing={1}>
+      <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
+    </Stack>
+           </Link>
         </div>
       </div>
       

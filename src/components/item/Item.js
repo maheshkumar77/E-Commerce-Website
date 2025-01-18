@@ -16,7 +16,7 @@ const Item=(props)=> {
 
     
     
-        <p>{props.sub}</p>
+        <p className=' para'>{props.sub}</p>
       
     <div className='item-price'>
       <div className='item-price1'>

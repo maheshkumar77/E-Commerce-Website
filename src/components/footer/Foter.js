@@ -4,6 +4,7 @@ import im1 from '../assets/logo.png'
 import insta from '../assets/insta.jpg'
 import printr from '../assets/printrest.png'
 import whatsap from '../assets/whatsap.avif'
+import { Link } from 'react-router-dom'
 const Foter = () => {
   return (
     <div className='foter'>
@@ -12,11 +13,27 @@ const Foter = () => {
         <p>SHOPPER</p>
      </div>
       <ui className='foter-links'>
-        <li>Company</li>
-        <li>Products</li>
-        <li>Offices</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+        <Link to="/company">
+        Company
+        </Link>
+        </li>
+        
+        <li>
+        <Link to="/office">
+        Offices
+        </Link>
+        </li>
+        <li>
+        <Link to="/about">
+        About
+        </Link>
+        </li>
+        <li>
+        <Link to="contact">
+        Contact
+        </Link>
+       </li>
       </ui>
       <div className='foter-sosial-icon'>
         <div className='foter-icon-container'>
@@ -29,10 +46,9 @@ const Foter = () => {
            <img src={whatsap} alt='whatsap'/>  
         </div>
       </div>
-      <div className='foter-copyright'>
-        <hr/>
-        <p>Copyright @ 2024 - All Right Resereved</p>
-      </div>
+      <div className="company-footer">
+          <p>&copy; 2025 You&MeShop | All Rights Reserved</p>
+        </div>
     </div>
   )
 }

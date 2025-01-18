@@ -7,7 +7,7 @@
 }
 .newcolaction h1{
     color:black;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
 }
 .newcolaction hr{
@@ -27,3 +27,24 @@
     margin-top: 50px;
     gap: 30px;
 }
+.load-more-btn,.show-less-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .load-more-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  .show-less-btn:hover{
+    background-color: #45a049;
+  }
+  

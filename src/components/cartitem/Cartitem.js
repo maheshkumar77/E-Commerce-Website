@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import './cartitem.css'
 import ricon from '../assets/remove.jpg'
 import { Shopcontext } from '../../context/Shopcontext'
+import { Link } from 'react-router-dom'; 
 const Cartitem = () => {
     const  { All_pro, cartitem, removeFromcart, getTotalCartAmount }=useContext(Shopcontext);
     console.log(getTotalCartAmount);
@@ -54,7 +55,9 @@ const Cartitem = () => {
                 </div>
               
             </div>
+            <Link to="/payment">
             <button>PROCEED TO CHACKOUT</button>
+            </Link>
         </div>
         <div className='cartitems-promocode'>
             <p>If you have a promo code, Enter it hear</p>

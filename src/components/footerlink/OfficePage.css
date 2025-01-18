@@ -1,0 +1,176 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container and Layout */
+  .office-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .office-header {
+    text-align: center;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .office-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .office-header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  /* Locations Section */
+  .office-locations {
+    margin-bottom: 40px;
+  }
+  
+  .office-locations h2 {
+    color: #2a9d8f;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .locations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .location {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 250px;
+    background-image: url(../assets/location.jpg);
+    background-repeat: no-repeat;
+  background-position: center; /* Position the background image at the center */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  height: 100%; /* Ensure the height is set, or you can set a specific height like 300px */
+  width: 100%; 
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .location:hover {
+    transform: translateY(-10px);
+    background-color: #f1f1f1;
+  }
+  
+  .location h3 {
+    color: #cbd6d5;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .location p {
+    font-size: 1rem;
+    color: #b4a2a2f9;
+  }
+  
+  /* Team Section */
+  .office-team {
+    margin-bottom: 40px;
+  }
+  
+  .office-team h2 {
+    color: #2a9d8f;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .team-member {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 250px;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .team-member h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Footer */
+  .office-footer {
+    text-align: center;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .office-footer p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .locations {
+      flex-direction: column;
+    }
+  
+    .location {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .team-members {
+      flex-direction: column;
+    }
+  
+    .team-member {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36c80ac8.css",
+    "main.js": "/static/js/main.8f13489c.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/comunity.jpg": "/static/media/comunity.c39ec667de7fcac16701.jpg",
+    "static/media/commu.jpg": "/static/media/commu.a3cc7413a6e28f001a18.jpg",
+    "static/media/enviroment.jpg": "/static/media/enviroment.112a14133718d05e0059.jpg",
+    "static/media/location.jpg": "/static/media/location.65ab2b28e0e67194b595.jpg",
+    "static/media/im4-removebg-preview.png": "/static/media/im4-removebg-preview.4366da0f3262d9753dd2.png",
+    "static/media/logo.png": "/static/media/logo.c6522917f2f8ed3b56a7.png",
+    "static/media/new2.png": "/static/media/new2.e50130836890a73b0b9f.png",
+    "static/media/printrest.png": "/static/media/printrest.0ec9a61afd22022ac962.png",
+    "static/media/mens_shart08.webp": "/static/media/mens_shart08.5b7c3be349108ab8a33a.webp",
+    "static/media/mens_tshart09.webp": "/static/media/mens_tshart09.4e8eccd79b9297463c14.webp",
+    "static/media/insta.jpg": "/static/media/insta.b71276cb15fba86365d3.jpg",
+    "static/media/mens_shart02.webp": "/static/media/mens_shart02.bd6500d0620188394264.webp",
+    "static/media/mens_shart01.webp": "/static/media/mens_shart01.f8fcf89792010025d338.webp",
+    "static/media/mens_tshart10.webp": "/static/media/mens_tshart10.5efc70a05840e2698095.webp",
+    "static/media/mens_shart06.webp": "/static/media/mens_shart06.2896d3afe9d791f70b9d.webp",
+    "static/media/remove.jpg": "/static/media/remove.636f2cf348bb1ea606b4.jpg",
+    "static/media/mens_short7.webp": "/static/media/mens_short7.56d7b6db25af57d98796.webp",
+    "static/media/mens_shart03.webp": "/static/media/mens_shart03.e42797fabce09539504e.webp",
+    "static/media/mens_shRT05.webp": "/static/media/mens_shRT05.69ff0396d58329e99ea8.webp",
+    "static/media/mens_shart04.webp": "/static/media/mens_shart04.1254736ddecca725057f.webp",
+    "static/media/mens_tshart11.webp": "/static/media/mens_tshart11.d4dbaefbb9b25a276eed.webp",
+    "static/media/whatsap.avif": "/static/media/whatsap.e7a430b59562ef4ef0eb.avif",
+    "static/media/lebel.webp": "/static/media/lebel.123c769541a4bcb3f2ed.webp",
+    "index.html": "/index.html",
+    "main.36c80ac8.css.map": "/static/css/main.36c80ac8.css.map",
+    "main.8f13489c.js.map": "/static/js/main.8f13489c.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36c80ac8.css",
+    "static/js/main.8f13489c.js"
+  ]
+}

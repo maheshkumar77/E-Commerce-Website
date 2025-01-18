@@ -1,0 +1,101 @@
+/* Basic styles for the page */
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .payment-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+  }
+  
+  /* Typography */
+  .payment-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  .payment-button,
+  .check-status-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #F4C430;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .payment-button:disabled,
+  .check-status-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .payment-button:hover:not(:disabled) {
+    background-color: #e4b628;
+  }
+  
+  .check-status-button {
+    background-color: #6c757d;
+  }
+  
+  .check-status-button:hover:not(:disabled) {
+    background-color: #5a6268;
+  }
+  
+  /* Input styling */
+  .payment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Payment status section */
+  .payment-status {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-status h4 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .payment-status pre {
+    font-size: 14px;
+    color: #333;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  /* Error message */
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  

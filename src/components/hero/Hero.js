@@ -10,7 +10,7 @@ function Hero() {
   return (
     <div className='hero'>
     <div className='left'>
-      <h1> <strong>👌</strong>New feshon was hear</h1>
+      <h1> <strong>👌</strong>New fashion was here</h1>
       <p><strong>60%</strong>  discount on every order</p>
       <button>Try It</button>
     </div>

@@ -25,9 +25,14 @@
     gap: 50px;
     color: #383838;
     font-size: 20px;
+    text-decoration: none;
 }
 .foter-links li{
     cursor: pointer;
+    text-decoration: none;
+}
+Link{
+    text-decoration: none; 
 }
 .foter-sosial-icon{
     display: flex;
@@ -60,3 +65,15 @@
     height: 3px;
     background: #c7c7c7;
 }
+.company-footer {
+    text-align: center;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    width: 98%;
+  }
+  
+  .company-footer p {
+    font-size: 1rem;
+  }
